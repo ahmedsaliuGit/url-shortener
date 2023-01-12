@@ -1,7 +1,25 @@
 /** @type {import('tailwindcss').Config} */
+// module.exports = {
+//   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+//   theme: {
+//     extend: {},
+//   },
+//   plugins: [],
+// };
+
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      fontFamily: {
+        sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+      },
+    },
+  },
+  variants: {
     extend: {},
   },
   plugins: [],

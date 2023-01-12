@@ -1,6 +1,14 @@
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-center">Hello world!</h1>
+    <>
+      <Header></Header>
+      <Main></Main>
+      <Footer></Footer>
+    </>
   );
 }
 
