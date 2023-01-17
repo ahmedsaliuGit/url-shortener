@@ -18,24 +18,24 @@ function Footer(props) {
           </svg>
         </div>
         <div>
-          <div className="text-grayish-violet mt-5">
-            <h3 className="text-white mb-3 font-bold text-base">Features</h3>
-            <p className="mb-1">Link Shortening</p>
-            <p className="mb-1">Branded Links</p>
-            <p className="mb-1">Analytics</p>
+          <div className="text-grayish-violet mt-6">
+            <h3 className="text-white mb-4 font-bold text-base">Features</h3>
+            <p className="mb-2">Link Shortening</p>
+            <p className="mb-2">Branded Links</p>
+            <p className="mb-2">Analytics</p>
           </div>
-          <div className="text-grayish-violet mt-5">
-            <h3 className="text-white mb-3 font-bold text-base">Resources</h3>
-            <p className="mb-1">Blog</p>
-            <p className="mb-1">Developer</p>
-            <p className="mb-1">Support</p>
+          <div className="text-grayish-violet mt-6">
+            <h3 className="text-white mb-4 font-bold text-base">Resources</h3>
+            <p className="mb-2">Blog</p>
+            <p className="mb-2">Developer</p>
+            <p className="mb-2">Support</p>
           </div>
-          <div className="text-grayish-violet mt-5">
-            <h3 className="text-white mb-3 font-bold text-base">Company</h3>
-            <p className="mb-1">About</p>
-            <p className="mb-1">Our Team</p>
-            <p className="mb-1">Career</p>
-            <p className="mb-1">Contact</p>
+          <div className="text-grayish-violet mt-6">
+            <h3 className="text-white mb-4 font-bold text-base">Company</h3>
+            <p className="mb-2">About</p>
+            <p className="mb-2">Our Team</p>
+            <p className="mb-2">Career</p>
+            <p className="mb-2">Contact</p>
           </div>
           <div className="flex justify-between items-center w-1/2 mt-10 mx-auto">
             <img src={Facebook} alt="Social media icon facebook" />
