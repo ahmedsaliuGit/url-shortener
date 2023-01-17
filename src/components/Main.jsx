@@ -61,7 +61,7 @@ function Main(props) {
 
         <div className="container w-11/12 mx-auto pt-10 relative z-10">
           <div className="w-full absolute top-60">
-            <div className="w-2 h-[40em] my-auto mx-auto bg-c-cyan"></div>
+            <div className="w-2 h-[40em] md:h-96 my-auto mx-auto bg-c-cyan"></div>
           </div>
           <div className="w-full text-center relative mt-10">
             <div className="w-full absolute -top-8">
@@ -116,7 +116,7 @@ function Main(props) {
         </div>
       </div>
 
-      <div className="bg-dark-violet bg-[url('images/bg-boost-mobile.svg')] bg-no-repeat text-white text-center py-24">
+      <div className="bg-dark-violet bg-[url('images/bg-boost-mobile.svg')] md:bg-[url('images/bg-boost-desktop.svg')] bg-no-repeat text-white text-center py-24 md:py-16">
         <h2 className="font-bold text-2xl w-11/12 container mx-auto mt-3">
           Boost your links today
         </h2>
