@@ -17,6 +17,12 @@ module.exports = {
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        "v-dark-violet": "hsl(260, 8%, 14%)",
+        "dark-violet": "hsl(257, 27%, 26%)",
+        "grayish-violet": "hsl(257, 7%, 63%)",
+        "c-cyan": "hsl(180, 66%, 49%)",
+      },
     },
   },
   variants: {
