@@ -17,3 +17,13 @@ img {
 .hero {
   background-position-x: 2rem;
 }
+
+.btn:hover {
+  opacity: 1;
+}
+
+@media (min-width: 1028px) {
+  .hero {
+    background-position-x: 18rem !important;
+  }
+}

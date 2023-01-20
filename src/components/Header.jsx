@@ -11,7 +11,7 @@ function Header(props) {
 
   return (
     <header>
-      <div className="xl:container xl:mx-auto px-4 py-8 flex justify-between">
+      <div className="lg:container lg:w-11/12 lg:mx-auto px-4 py-8 lg:py flex justify-between lg:justify-start items-center">
         <img src={Logo} alt="Shortly logo" />
         <div className="lg:hidden">
           <button
@@ -28,16 +28,26 @@ function Header(props) {
             </svg>
           </button>
         </div>
-        <nav className="hidden lg:flex lg:mx-auto">
+        <nav className="hidden lg:flex items-center w-full ml-10 text-grayish-violet">
           <ul className="lg:flex">
-            <li>Features</li>
-            <li>Pricing</li>
-            <li>Resources</li>
+            <li className="font-bold hover:text-dark-violet hover:cursor-pointer">
+              Features
+            </li>
+            <li className="ml-7 font-bold hover:text-dark-violet hover:cursor-pointer">
+              Pricing
+            </li>
+            <li className="ml-7 font-bold hover:text-dark-violet hover:cursor-pointer">
+              Resources
+            </li>
           </ul>
 
-          <ul className="lg:flex">
-            <li>Login</li>
-            <li>Sign Up</li>
+          <ul className="lg:flex items-center ml-auto">
+            <li className="ml-7 font-bold hover:text-dark-violet hover:cursor-pointer">
+              Login
+            </li>
+            <li className="ml-7 font-bold bg-c-cyan rounded-full px-8 py-2 text-white hover:bg-opacity-60 hover:cursor-pointer">
+              Sign Up
+            </li>
           </ul>
         </nav>
         <div
