@@ -239,7 +239,7 @@ function Main(props) {
         </div>
       </div>
 
-      <div className="bg-dark-violet bg-[url('images/bg-boost-mobile.svg')] md:bg-[url('images/bg-boost-desktop.svg')] bg-no-repeat text-white text-center py-24 md:py-16">
+      <div className="bg-dark-violet bg-[url('images/bg-boost-mobile.svg')] md:bg-[url('images/bg-boost-desktop.svg')] bg-no-repeat bg-right-top text-white text-center py-24 md:py-16">
         <h2 className="font-bold text-2xl lg:text-3xl w-11/12 container mx-auto mt-3">
           Boost your links today
         </h2>
